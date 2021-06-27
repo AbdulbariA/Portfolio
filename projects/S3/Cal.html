@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Site</title>
+</head>
+<body class="the_body body_light">
+ <ul>
+    <li><a href="index.html" class="link">Home</a></li>
+    <li><a href="aboutme.html" class="active_link link">About</a></li>
+    <li><a href="Cal.html" class="active_link link">Calculater</a></li>
+    <li><a href="#" class="button_light switch-color link">Change color</a></li>
+</ul>
+ 
+<h1>Calculater</h1> 
+
+<!-- <label for="calculate">Number 1 :</label>
+
+<input type="text" id="num1" name="Number 1"
+       min="1" max="1000000000">
+
+
+
+<label for="calculate">Number 2 :</label>
+
+<input type="text" id="num2" name="Number 2"
+    min="1" max="1000000000">
+<br>
+<button onclick="calculate()">Calculate</button> -->
+Number 1
+<input type="text" id="n1" class="n1"/><br/><br/>
+Number 2
+<input type="text" id="n2"/><br/><br/>
+        
+<select id="operators">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="/">/</option>
+    <option value="X">X</option>
+</select>
+        
+<button onclick="calc();">=</button>
+<input type="text" id="result"/>
+        
+<script src="js/main.js"></script>       
+</body>
+</html>
